@@ -36,7 +36,20 @@ hello git
     - git add -A/--all 添加所有变更文件
 - git commit
     - 提交文件到本地仓库
-    - 记得写提交日志
+    - 记得写提交日志 git commit -m '修改描述'
 - git push
     - 推送代码文件到远端服务器对应的分支
     - git push origin master
+    
+- git log 退出指令 按q
+    - 代码提交日志
+    
+- 创建分支
+    - git branch
+        - git branch 'BRANCH_NAME'
+        - 创建一个新的分支但没有切换
+    - git checkout
+        - git checkout -b 'BRANCH_NAME'
+        - 创建并切换到指定分支上
+        - git checkout branch_name
+        - 切换到指定分支上
