@@ -24,3 +24,19 @@ hello git
 - .gitignore
     - git忽略规则
     - 写入.gitignore文件中的文件或目录，git将不会进行版本跟踪
+    
+#### 指令操作
+- git status    
+    - 查看工作空间状态
+    - 如果存在红色或绿色文件，代表还有代码文件没有提交
+    - 需要进行追踪，git add
+- git add
+    - 添加文件到版本控制中去
+    - git add filename
+    - git add -A/--all 添加所有变更文件
+- git commit
+    - 提交文件到本地仓库
+    - 记得写提交日志
+- git push
+    - 推送代码文件到远端服务器对应的分支
+    - git push origin master
